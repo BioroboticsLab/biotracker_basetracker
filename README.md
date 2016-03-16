@@ -14,7 +14,7 @@ git clone git@github.com:BioroboticsLab/biotracker_basetracker.git <your_new_tra
 * Change remote of your cloned repository to your newly created one
 ```bash
 cd <your_new_tracker_name>
-git remote set -url git@github.com:<your_github_user>/<your_new_tracker_name>.git
+git remote set-url git@github.com:<your_github_user>/<your_new_tracker_name>.git
 git remote add base git@github.com:BioroboticsLab/biotracker_basetracker.git
 git push -u origin
 ```
